@@ -1,11 +1,11 @@
 {
     "properties": {
-        "blueprintId": "/providers/Microsoft.Management/managementGroups/{YourMG}/providers/Microsoft.Blueprint/blueprints/MyBlueprint",
+        "blueprintId": "/subscriptions/bf8e88c5-a3eb-45e5-912b-e7b6c32f6fac/providers/Microsoft.Blueprint/blueprints/sampleblueprintss",
         "resourceGroups": {
-            "storageRG": {
-                "name": "StorageAccount",
-                "location": "eastus2"
-            }
+            "ResourceGroup": {
+                "name": "mypocs_swap",
+                "location": "eastus"
+              }
         },
         "parameters": {
             "storageAccountType": {
