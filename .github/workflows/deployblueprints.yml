@@ -21,7 +21,7 @@ jobs:
           scope: Subscription
           azureSubscriptionID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
           blueprintName: ${{ secrets.blueprintName }}
-          blueprintPath: Blueprints/DA_Accelerator
+          blueprintPath: sample_blueprint_poc
 
       - name: Assign Azure Blueprint
         uses: neilpeterson/action-assign-blueprint@master
@@ -35,4 +35,4 @@ jobs:
           azureSubscriptionID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
           assignmentName: ${{ secrets.assignmentName }}
           blueprintName: ${{ secrets.blueprintName }}
-          AssignmentFilePath: Blueprints/DA_Accelerator/assign.json
+          AssignmentFilePath: sample_blueprint_poc/assign.json
