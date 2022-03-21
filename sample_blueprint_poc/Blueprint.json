@@ -17,39 +17,26 @@
                     "description": null
                 }
             },
-            "tagName": {
+            "datafactoryname": {
                 "type": "string",
                 "metadata": {
                     "displayName": "The name of the tag to provide the policy assignment.",
                     "description": null
                 }
             },
-            "tagValue": {
+            "storagename": {
                 "type": "string",
                 "metadata": {
                     "displayName": "The value of the tag to provide the policy assignment.",
                     "description": null
                 }
-            },
-            "contributors": {
-                "type": "array",
-                "metadata": {
-                    "description": "List of AAD object IDs that is assigned Contributor role at the subscription",
-                    "strongType": "PrincipalId"
-                }
-            },
-            "owners": {
-                "type": "array",
-                "metadata": {
-                    "description": "List of AAD object IDs that is assigned Owner role at the resource group",
-                    "strongType": "PrincipalId"
-                }
-            }
+            }            
         },
         "resourceGroups": {
-            "storageRG": {
-                "description": "Contains the resource template deployment and a role assignment."
+            "ResourceGroup":  {
+              "type": "object"
             }
-        }
+        },
+        "blueprintName": "sampleblueprintss"
     }
 }
