@@ -1,9 +1,9 @@
 {
     "properties": {
-        "blueprintId": "/subscriptions/bf8e88c5-a3eb-45e5-912b-e7b6c32f6fac/providers/Microsoft.Blueprint/blueprints/sampleblueprintss",
+        "blueprintId": "/subscriptions/b268d890-a623-4073-b1fe-685140485c08/providers/Microsoft.Blueprint/blueprints/sampleblueprintss",
         "resourceGroups": {
             "ResourceGroup": {
-                "name": "mypocs_swap",
+                "name": "ODP_blueprintspoc",
                 "location": "eastus"
               }
         },
@@ -23,7 +23,7 @@
         "type": "userAssigned",
         "tenantId": "687f51c3-0c5d-4905-84f8-97c683a5b9d1",
         "userAssignedIdentities": {
-            "/subscriptions/bf8e88c5-a3eb-45e5-912b-e7b6c32f6fac/resourcegroups/mypoc_ODP_resourcegrp/providers/Microsoft.ManagedIdentity/userAssignedIdentities/IaC_ODP_deploy": {}
+            "/subscriptions/b268d890-a623-4073-b1fe-685140485c08/resourcegroups/ODP_training/providers/Microsoft.ManagedIdentity/userAssignedIdentities/mypodp_prd_IaC": {}
         }
     },
     "location": "eastus"
